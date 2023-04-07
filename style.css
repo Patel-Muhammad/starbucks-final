@@ -111,7 +111,6 @@ li:hover{
     width: 50%;
     background-color: rgb(212, 233, 226);
     color: rgb(30, 57, 50);
-    padding: 32px 48px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
