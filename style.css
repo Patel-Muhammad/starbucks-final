@@ -1,0 +1,143 @@
+/*===================== style for header ==========================*/
+
+.header-container{
+    height: 101px;
+    box-shadow: 0 1px 3px rgba(0,0,0,.1),0 2px 2px rgba(0,0,0,.06),0 0 2px rgba(0,0,0,.07);
+    /* background-color: red; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-family: SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1.6px;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+
+}
+
+li{
+    margin-left: 30px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.left-container{
+    /* background-color: aquamarine; */
+    display: flex;
+    align-items: center;
+}
+
+.right-container{
+    display: flex;
+    align-items: center;
+}
+
+.right-container div{
+    margin-right: 30px;
+}
+
+.right-container button{
+    margin-right: 30px;
+}
+
+.logo{
+    margin-left: 30px;
+}
+
+.sign-in-btn{
+    padding: 7px 14px;
+    border: 1px solid black;
+    border-radius: 50px;
+}
+.join-now-btn{
+    padding: 7px 14px;
+    border: 1px solid black;
+    border-radius: 50px;
+    color: white;
+    background-color: black;
+}
+
+li:hover{
+    color: #00754a;
+    cursor: pointer;
+}
+
+.sign-in-btn:hover{
+    background-color: rgba(0,0,0,.1);
+    cursor: pointer;
+    transition: 0.3s all ease;
+    /* transform: scale(1.1); */
+}
+
+.join-now-btn:hover{
+    background-color: rgba(0,0,0,.7);
+    cursor: pointer;
+    transition: 0.3s all ease;
+    /* transform: scale(1.1); */
+}
+
+.location:hover{
+    cursor: pointer;
+    color: #00754a;
+}
+
+/*=================== header styling completed===================== */
+
+
+/*=================== style for main content ====================== */
+
+.card-container-1{
+    width: 100%;
+    display: flex;
+    margin-top: 30px;
+}
+
+.left-card-1{
+    width: 50%;
+    /* background-color: red; */
+}
+
+.right-card-1{
+    width: 50%;
+    background-color: rgb(212, 233, 226);
+    color: rgb(30, 57, 50);
+    padding: 32px 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.left-card-1 img{
+    width: 100%;
+    height: 100%;
+}
+
+.right-card-1 h1{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.right-card-1 p{
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.card-btn-1{
+    padding: 7px 14px;
+    border: 1px solid rgb(30, 57, 50);
+    border-radius: 50px;
+    color: rgb(30, 57, 50);
+    background-color: rgb(212, 233, 226);
+    font-weight: 600;
+}
